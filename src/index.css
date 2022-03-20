@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+
+:root{
+  --primary_shade0: #E5FFE7;
+  --primary: #37FF45;
+  --primary_shade2: #3BBF44;
+  --primary_shade3: #24752A;
+  --primary_shade4: #184E1C;
+  --primary_shade5: #0C270E;
+
+  --secondary_shade0: #E8F4FC;
+  --secondary: #6EC8FF;
+  --secondary_shade2: #1994E1;
+  --secondary_shade3: #0F5B8A;
+  --secondary_shade4: #0A3D5C;
+  --secondary_shade5: #051E2E;
+
+  --grayScale0: #FFFFFF;
+  --grayScale1: #B7B7B7;
+  --grayScale2: #747474;
+  --grayScale3: #4D4D4D;
+  --grayScale4: #333333;
+  --grayScale4: #1A1A1A;
+}
+
+
+*{
+  /* border: 1px dashed red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +44,757 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* NavBar ----------------------------------------------------------------------> */
+.NavBar {
+  position: relative;
+}
+.navbar-brand{
+  color: var(--primary_shade0) !important;
+}
+.navLinks{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight:600;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.NavBar li {
+  padding-left: 32px;
+}
+
+.NavBar li, a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #232323;
+  display: inline;
+}
+
+.NavBar{
+  background-color: var(--secondary_shade5);
+}
+
+
+/* <----------------------------------------------------------------------- NavBar */
+
+
+
+/* Home -------------------------------------------------------------------------> */
+
+.homescreen{
+  color: white;
+  background-color: var(--secondary_shade5);
+  padding: 4%;
+}
+
+.homeContainer{
+  position: relative;
+  text-align: center;
+  padding: 8% 4%;
+}
+
+.homeContainer h1{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.homeContainer p{
+  margin-top: 2%;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: var(--secondary_shade0);
+}
+
+.textContainer{
+  text-align: center;
+}
+
+.homeContainer img {
+  width: 72%;
+  margin: 8%;
+}
+
+.homeContainer .button{
+  background-color: var(--primary);
+  color: var(--secondary_shade5);
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 2% 8%;
+  border-radius: 8px;
+  margin-bottom: 4%;
+  border: 0.1px solid var(--secondary_shade5);
+}
+/* <..... Home */
+
+
+/* About Us -------------------------------------------------------------------------> */
+
+
+.aboutUs_Container{
+  position: relative;
+  margin: 8%;
+  text-align: center;
+}
+
+.aboutUs_Container .sectionTitle{
+  text-decoration: underline;
+  color: var(--secondary_shade5);
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 4%;
+  padding-top: 4%;
+}
+
+.aboutUs_Container img{
+  width: 60%;
+  margin: 4%;
+}
+
+.text .title{
+  color: var(--primary_shade3);
+  font-size: 2em;
+  margin-bottom: 4%;
+}
+
+.text .subTitle{
+  font-size: 1.4em;
+}
+
+/* <-------------------------------------------------------------------------- About Us */
+
+
+
+
+/* Services ----------------------------------------------------------------------> */
+
+.services{
+  background-color: var(--secondary_shade5);
+}
+
+.servicesContainer{
+  position: relative;
+  margin: 8%;
+  padding: 8% 0;
+  margin-bottom: 0;
+}
+
+.serviceCard{
+  min-width: 320px;
+  padding-right: 16px;
+}
+
+.serviceCards_container{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.serviceCards_container::-webkit-scrollbar{
+  display: none; /*Chrome*/
+}
+
+.serviceCards_container{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+/* service card */
+.imageSection{
+  height: 320px;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background-color: #E5FFE7;
+}
+
+.imageSection img {
+  box-sizing: border-box;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textSection{
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.cardTitle{
+  font-family: 'Bebas Neue', cursive;
+  padding: 8px 16px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: var(--grayScale4);
+}
+
+.textSection ul{
+  padding: 0 16px 8px 16px;
+}
+
+.textSection ul li{
+  display: inline-block;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+  border: 0.5px solid #808080;
+  padding: 2px 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: E5FFE7;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #0C270E;
+  border-radius: 4px;
+}
+
+
+/* <------- service card */
+
+
+.services .sectionTitle{
+  padding-top: 4%;
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 8%;
+}
+
+/* Custom service card */
+.customService .text{
+  margin: 0 6% 2% 6%;
+  color: #0C270E;
+}
+
+.customService .button{
+  display: inline-block;
+  margin: 6%;
+  padding: 2% 8%;
+  border-radius: 4px;
+  border: 0.5px solid var(--secondary_shade5);
+  background-color: var(--primary);
+}
+
+/* <---------------------------------------------------------------------- Services */
+
+
+
+/* Contact Us -------------------------------------------------->  */
+.contactUs{
+  padding: 8%;
+  text-align: center;
+}
+
+.contactContainer .sectionTitle{
+  margin-bottom: 8%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: var(--primary_shade2);
+  color: var(--secondary_shade5);
+  font-size: 2em;
+  font-weight: 500;
+}
+
+
+
+/* Form */
+.contactForm{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--secondary_shade5);
+  color: var(--grayScale0);
+  width: 100%;
+  padding: 8% 6%;
+  margin: 4% 0;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contactForm .title{
+  font-size: 1.4em;
+  font-weight: 500;
+  text-align: center;
+  color: var(--primary);
+}
+
+.contactForm p{
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 6% 0;
+}
+
+.contactForm form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 8px;
+  grid-template-areas:
+    'fname lname'
+    'phone phone'
+    'email email'
+    'message message'
+    'message message';
+}
+
+.contactForm #fname{ grid-area: fname; }
+.contactForm #lname{ grid-area: lname; }
+.contactForm #phone{ grid-area: phone; }
+.contactForm #email{ grid-area: email; }
+.contactForm #message{ grid-area: message; }
+
+.contactForm input{
+  width: 100%;
+  color: var(--secondary_shade0);
+  background-color: #18313F;
+  padding: 4%;
+  border-radius: 4px;
+  border: none;
+}
+
+.contactForm textarea{
+  color: var(--secondary_shade0);
+  background-color: #18313F;
+  padding: 4%;
+  border-radius: 4px;
+  border: none;
+}
+
+.contactForm button{
+  width: fit-content(100%);
+  padding: 2% 10%;
+  border-radius: 50px;
+  font-size: 1.2em;
+  background-color: var(--primary);
+  color: var(--secondary_shade5);
+  border: 0.5px solid var(--primary);
+  margin: 4% 0;
+}
+/* form */
+
+.or{
+  display: inline-block;
+  margin: 4% 0;
+}
+
+
+.phoneContainer{
+  text-align: center;
+  display: inline-block;
+  padding-top: 4%;
+  margin: 4% 0;
+}
+
+.phoneContainer .phone{
+  position: relative;
+  text-align: center;
+}
+
+.phoneContainer .phone img{
+  width: 64%;
+}
+
+.whatsappBtn {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  background-color: var(--primary);
+  color: var(--secondary_shade5);
+  padding: 2% 4%;
+  font-size: 1.05em;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0.5px solid var(--secondary_shade5);
+}
+
+
+/* <--------------------------------------- Contact Us */
+
+
+.button{
+  transition: ease-out 200ms;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: var(--secondary_shade5);
+  color: var(--primary);
+  transition: ease-in 200ms;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1), 3px 3px 6px rgba(0, 0, 0, 0.15), 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.whatsappBtn:hover {
+  position: absolute;
+  left: 32%;
+  bottom: 8%;
+  cursor: pointer;
+  background-color: var(--secondary_shade5);
+  color: var(--primary);
+  border: 0.5px solid var(--primary);
+  transition: ease-in 200ms;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1), 3px 3px 6px rgba(0, 0, 0, 0.15), 2px 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+
+/* Footer -----------------------------------------------> */
+.footer{
+  background-color: var(--secondary_shade5);
+  color: var(--primary_shade0);
+}
+
+.footerContainer{
+  padding: 8%;
+}
+
+.socials{
+  margin-bottom: 12%;
+}
+
+.socials .title{
+  font-size: 1.2em;
+  margin-bottom: 1.2%;
+}
+
+.socials .icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socials .icons a{
+  margin-right: 4%;
+  margin-top: 2%;
+}
+
+.socials .icons img{
+  width: 32px;
+  filter: opacity(0.8);
+  transition: ease-out 200ms;
+}
+
+.socials .icons img:hover{
+  width: 32px;
+  filter: opacity(1);
+  transition: ease-in 200ms;
+}
+
+
+
+.contact .title{
+  font-size: 1.2em;
+  margin-bottom: 4%;
+}
+
+.contact .phone{
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.contact .contactItemsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact .contactItems{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  filter: opacity(0.8);
+  transition: ease-out 200ms;
+}
+
+.contact .contactItems:hover{
+  filter: opacity(0.8);
+  cursor: pointer;
+  filter: opacity(1);
+  transition: ease-in 200ms;
+}
+
+.contact .contactItems p{
+  position: relative;
+  top: 50%;
+  transform: translateY(0%);
+  color: white;
+}
+
+.contact .contactItems img{
+  margin-right: 2%;
+  margin-bottom: 4%;
+  width: 32px;
+  padding: 2px;
+}
+
+.footer .copyright {
+  font-size: 1.2em;
+  padding: 4% 0 2% 0;
+  filter: opacity(0.8);
+}
+
+/* <--------------------------------------- Footer */
+
+
+
+
+
+/* ------------------- Tablets ----------------------- */
+@media screen and (min-width: 700px) {
+
+    .serviceCard{
+      min-width: 300px;
+      padding-right: 16px;
+    }
+
+    .imageSection{
+      height: 300px;
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+      background-color: #E5FFE7;
+    }
+
+    /* Contact Us -------------------------------------------------->  */
+  .contactUs{
+    padding: 8%;
+  }
+
+  .contactContainer .sectionTitle{
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+
+  .contactForm{
+    width: 80%;
+    padding: 28px;
+  }
+
+  .contactForm .title{
+    margin: 0;
+  }
+
+  .contactContainer .contents p{
+    display: block;
+    padding: 16px;
+  }
+
+
+  .phoneContainer{
+    text-align: center;
+    display: inline-block;
+  }
+/* <--------------------------------------- Contact Us */
+  
+}
+
+
+
+
+
+
+
+
+/* ---------------------- Desktop -------------------------- */
+
+@media screen and (min-width: 1025px) {
+
+  /* *{
+    border: 1px solid red;
+  } */
+
+  .homescreen{
+    padding: 6%;
+    text-align: left;
+  }
+
+  .homeContainer{
+    position: relative;
+    padding: 0;
+  }
+  
+  .homeContainer .textContainer{
+    width: 60%;
+    text-align: left;
+  }
+  
+  .homeContainer .textContainer p{
+    width: 90%;
+    text-align: left;
+    margin-bottom: 8%;
+  }
+
+  .homeContainer img{
+    position: absolute;
+    right: 0;
+    top: 4%;
+    padding-left: 16px;
+    margin: 0;
+    width: 40%;
+  }
+
+  
+  .homeContainer .button{
+    background-color: var(--primary);
+    color: var(--secondary_shade5);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 0.1px solid var(--secondary_shade5);
+    display: flex;
+    width: 12%;
+  }
+
+
+
+
+  .services{
+    padding: 0;
+    margin: 0;
+  }
+
+  .serviceCards_container{
+    margin: 4% 8%;
+    padding: 0;
+  }
+
+  .servicesContainer .sectionTitle{
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .aboutUs_Container{
+    position: relative;
+    margin: 4% 8%;
+    text-align: left;
+  }
+
+  .aboutUs_Container .sectionTitle{
+    padding: 0%;
+    margin-bottom: 2%;
+  }
+
+  .aboutUs_Container img{
+    width: 30%;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .aboutUs_Container .text{
+    text-align: right;
+    width: 60%;
+    position: absolute;
+    right: 0%;
+    bottom: 16%;
+    margin: 0%;
+    padding: 0;
+  }
+
+
+
+
+  /* contact us--------------- */
+  .contactUs{
+    padding: 0;
+    margin: 0;
+  }
+
+  .contactContainer{
+    margin: 4% 8%;
+    text-align: center;
+  }
+
+  .contactUs .sectionTitle{
+    padding: 0;
+    margin: 0%;
+  }
+
+  .contactContainer .contents{
+    padding-left: 12%;
+    margin: 4% 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contactContainer .contents .or{
+    display: none;
+  }
+
+  .contactForm{
+    width: 100%;
+    margin: 0%;
+  }
+  
+  .footer{
+    margin: 0;
+    padding: 0%;
+  }
+
+  .footerContainer{
+    margin: 0%;
+    padding: 4% 8%;
+  }
+
+  .socials{
+    margin-bottom: 6%;
+  }
+
+  .socials .icons a{
+    margin-right: 2%;
+  }
+
+  .socials .title{
+    margin-bottom: 0%;
+  }
+
+
+
+  .footer .contact{
+    padding: 0%;
+    margin: 0;
+  }
+
+  .footer .contact .title{
+    margin-bottom: 2%;
+  }
+
+  .contactItemsConatiner{
+    display: inline-block;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .copyright{
+    padding: 0%;
+    margin: 0%;
+  }
+
 }
