@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/iMedia/static/css/main.73d8afb4.css",
+    "main.js": "/iMedia/static/js/main.c03d3444.js",
+    "static/js/787.72a0ffca.chunk.js": "/iMedia/static/js/787.72a0ffca.chunk.js",
+    "static/media/Phone.png": "/iMedia/static/media/Phone.386aea0afcc77dc686bd.png",
+    "static/media/CUSTOM SERVICE.svg": "/iMedia/static/media/CUSTOM SERVICE.44d9d5bbfc0609b2368db4d8f55d2ed0.svg",
+    "static/media/BRAND MANAGEMENT (DIGITAL).svg": "/iMedia/static/media/BRAND MANAGEMENT (DIGITAL).9aae241335a295f9955440f1325db2d7.svg",
+    "static/media/InsightsMedia_Logo.svg": "/iMedia/static/media/InsightsMedia_Logo.f1fdeda9478580e566b63239331001f7.svg",
+    "static/media/EMAIL & SMS MARKETING.svg": "/iMedia/static/media/EMAIL & SMS MARKETING.5dd97b65973cfd7564b30d7bec9cbcb2.svg",
+    "static/media/CONTENT MARKETING.svg": "/iMedia/static/media/CONTENT MARKETING.d8ec96cc4605117369b05e892be0d852.svg",
+    "static/media/insta.svg": "/iMedia/static/media/insta.9ea37da5c57571cd96e9d1c8b87477ff.svg",
+    "static/media/DIGITAL PAID MARKETING.svg": "/iMedia/static/media/DIGITAL PAID MARKETING.e010eab8c8dfbfa4b89485256ca2e28d.svg",
+    "static/media/SEARCH ENGINE OPTIMIZATION.svg": "/iMedia/static/media/SEARCH ENGINE OPTIMIZATION.226ce5179efdf6d351541c2f33c08636.svg",
+    "static/media/WebDesign&Development.svg": "/iMedia/static/media/WebDesign&Development.35dfc11edc35985fcb5a42d2d481566b.svg",
+    "static/media/COMPETITOR ANALYSIS.svg": "/iMedia/static/media/COMPETITOR ANALYSIS.290ed33d8cb2a26e779c6d0b681f6e89.svg",
+    "static/media/BRANDING.svg": "/iMedia/static/media/BRANDING.d84dcc18800b384b8f311771b5e6d4be.svg",
+    "static/media/DIGITAL BRAND PRESENCE.svg": "/iMedia/static/media/DIGITAL BRAND PRESENCE.82ff6ec4ff330121985fc14aac975247.svg",
+    "static/media/Chat_Illustration.svg": "/iMedia/static/media/Chat_Illustration.18988088a11716d2d720a3d540fc9f11.svg",
+    "static/media/4362952_whatsapp_logo_social media_messaging app_icon 1.svg": "/iMedia/static/media/4362952_whatsapp_logo_social media_messaging app_icon 1.02ac59fed426dc5f39d96faf314e0ddc.svg",
+    "static/media/VIRTUAL 360 TOURS.svg": "/iMedia/static/media/VIRTUAL 360 TOURS.82bae149e73cb1d12e792e3ecd1842fc.svg",
+    "static/media/GOOGLE ADS.svg": "/iMedia/static/media/GOOGLE ADS.008cb52e8759ce31bd28e5f0dd99cb96.svg",
+    "static/media/twitter.svg": "/iMedia/static/media/twitter.200022b3299af408d428cdaadbd4d280.svg",
+    "index.html": "/iMedia/index.html",
+    "static/media/linkedin.svg": "/iMedia/static/media/linkedin.8a57c5359583cccb4a572ed1672b5fcf.svg",
+    "static/media/phone.svg": "/iMedia/static/media/phone.c798f071353217993f48e5cf9e93f3f5.svg",
+    "static/media/Facebook.svg": "/iMedia/static/media/Facebook.baac2554518305a8202c209a8b7210db.svg",
+    "static/media/email.svg": "/iMedia/static/media/email.bead78dc8e94c9bd84b24be75e80ac96.svg",
+    "static/media/home.svg": "/iMedia/static/media/home.1e2b8627c5cd5f2d437e4063da079a7b.svg",
+    "main.73d8afb4.css.map": "/iMedia/static/css/main.73d8afb4.css.map",
+    "main.c03d3444.js.map": "/iMedia/static/js/main.c03d3444.js.map",
+    "787.72a0ffca.chunk.js.map": "/iMedia/static/js/787.72a0ffca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73d8afb4.css",
+    "static/js/main.c03d3444.js"
+  ]
+}
