@@ -5,7 +5,7 @@ const Form = () => {
         return <p>Thanks for joining!</p>;
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='form' onSubmit={handleSubmit}>
             <label htmlFor="fname"></label>
             <input type="text" id='fname' placeholder='First Name' name='fname' required />
 
@@ -30,8 +30,8 @@ const ContactForm = () => {
     return (
         <div className="contactForm">
             <p className="title">Conatct Form</p>
-            <Form />
             <p>Fill out this form and we'll get in touch with you soon</p>
+            <Form />
         </div>
     );
 }

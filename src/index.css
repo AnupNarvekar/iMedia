@@ -383,6 +383,11 @@ code {
   border: 0.5px solid var(--primary);
   margin: 4% 0;
 }
+
+.formButton{
+  position: relative;
+  left: -50%;
+}
 /* form */
 
 .or{
@@ -582,6 +587,7 @@ code {
   .contactForm{
     width: 80%;
     padding: 28px;
+    text-align: center;
   }
 
   .contactForm .title{
@@ -600,6 +606,12 @@ code {
   }
 /* <--------------------------------------- Contact Us */
   
+.formButton{
+  position: relative;
+  left: -50%;
+}
+
+
 }
 
 
@@ -750,6 +762,12 @@ code {
   .contactForm{
     width: 100%;
     margin: 0%;
+    text-align: center;
+  }
+
+  .formButton{
+    position: relative;
+    left: -50%;
   }
   
   .footer{
